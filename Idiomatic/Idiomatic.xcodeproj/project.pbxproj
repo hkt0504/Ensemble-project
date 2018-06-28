@@ -1,0 +1,1050 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070176F118BD17DF00C4DA01 /* CDENodeCloudFileSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 070176F018BD17DF00C4DA01 /* CDENodeCloudFileSystem.m */; };
+		070176F218BD17DF00C4DA01 /* CDENodeCloudFileSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 070176F018BD17DF00C4DA01 /* CDENodeCloudFileSystem.m */; };
+		070F46F91805D51400EE36E5 /* IDMNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F46F41805D51400EE36E5 /* IDMNote.m */; };
+		070F46FA1805D51400EE36E5 /* IDMTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F46F61805D51400EE36E5 /* IDMTag.m */; };
+		070F46FB1805D51400EE36E5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 070F46F71805D51400EE36E5 /* Model.xcdatamodeld */; };
+		070F46FD1805D6C100EE36E5 /* IDMNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F46F41805D51400EE36E5 /* IDMNote.m */; };
+		070F46FE1805D6C400EE36E5 /* IDMTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 070F46F61805D51400EE36E5 /* IDMTag.m */; };
+		073658A11EDD4936001C26F4 /* CDEDropboxV2CloudFileSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 073658A01EDD4936001C26F4 /* CDEDropboxV2CloudFileSystem.m */; };
+		073658B51EDD521A001C26F4 /* ObjectiveDropboxOfficial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073658A81EDD49B8001C26F4 /* ObjectiveDropboxOfficial.framework */; };
+		073658B61EDD521A001C26F4 /* ObjectiveDropboxOfficial.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 073658A81EDD49B8001C26F4 /* ObjectiveDropboxOfficial.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		074B959C17EC783B0016F84D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074B959B17EC783B0016F84D /* Foundation.framework */; };
+		074B959E17EC783B0016F84D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074B959D17EC783B0016F84D /* CoreGraphics.framework */; };
+		074B95A017EC783B0016F84D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074B959F17EC783B0016F84D /* UIKit.framework */; };
+		074B95A617EC783B0016F84D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 074B95A417EC783B0016F84D /* InfoPlist.strings */; };
+		074B95A817EC783B0016F84D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B95A717EC783B0016F84D /* main.m */; };
+		074B95AC17EC783B0016F84D /* IDMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B95AB17EC783B0016F84D /* IDMAppDelegate.m */; };
+		074B95AF17EC783B0016F84D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074B95AD17EC783B0016F84D /* Main.storyboard */; };
+		074B95B417EC783B0016F84D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074B95B317EC783B0016F84D /* Images.xcassets */; };
+		074B95DB17EC7DCD0016F84D /* IDMTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B95DA17EC7DCD0016F84D /* IDMTagsViewController.m */; };
+		074B95DE17EC7DDF0016F84D /* IDMNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B95DD17EC7DDF0016F84D /* IDMNotesViewController.m */; };
+		074B95E117EC9F470016F84D /* IDMNoteEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B95E017EC9F470016F84D /* IDMNoteEditingViewController.m */; };
+		075157581805D7FD00C4D4F1 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 070F46F71805D51400EE36E5 /* Model.xcdatamodeld */; };
+		0751809918B743C500CE4264 /* IDMMediaFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0751809818B743C500CE4264 /* IDMMediaFile.m */; };
+		0751809A18B743C500CE4264 /* IDMMediaFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0751809818B743C500CE4264 /* IDMMediaFile.m */; };
+		07571F4D1910F738008479A9 /* libensembles.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 077F113F17F709ED0093A212 /* libensembles.a */; };
+		077231DE18C5FCDA0065BFEE /* IDMNodeSyncSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077231DD18C5FCDA0065BFEE /* IDMNodeSyncSettingsViewController.m */; };
+		077231E018C604610065BFEE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077231DF18C604610065BFEE /* Security.framework */; };
+		077231E218C6080D0065BFEE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077231E118C6080D0065BFEE /* MobileCoreServices.framework */; };
+		07746AAF18C6276F00A267F5 /* IDMSyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07746AAE18C6276F00A267F5 /* IDMSyncManager.m */; };
+		0791BCE317F6F58C00E7C31B /* Ensembles iOS.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 0791BCE217F6F58C00E7C31B /* Ensembles iOS.xcodeproj */; };
+		07973EF9183BE32C007F48CA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07973EF8183BE32C007F48CA /* CoreData.framework */; };
+		07D0601F1FACD9BB003783D3 /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D060141FACD985003783D3 /* ZipArchive.framework */; };
+		07D060201FACD9BB003783D3 /* ZipArchive.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07D060141FACD985003783D3 /* ZipArchive.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07D9F0051910FD7600D191FA /* Ensembles.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07571F411910F2BE008479A9 /* Ensembles.bundle */; };
+		07D9F0261911077900D191FA /* Ensembles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07168C0418E037FC00153494 /* Ensembles.framework */; };
+		07D9F029191107FC00D191FA /* Ensembles.framework in Resources */ = {isa = PBXBuildFile; fileRef = 07168C0418E037FC00153494 /* Ensembles.framework */; };
+		0BA4D0F319572DED00FA29F9 /* CDEMultipeerCloudFileSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA4D0F219572DED00FA29F9 /* CDEMultipeerCloudFileSystem.m */; };
+		0BA833F719572D53001FA15B /* IDMMultipeerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA833E919572D53001FA15B /* IDMMultipeerManager.m */; };
+		9477ED311800137300C2A419 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9477ED301800137300C2A419 /* Cocoa.framework */; };
+		9477ED3B1800137300C2A419 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9477ED391800137300C2A419 /* InfoPlist.strings */; };
+		9477ED3D1800137300C2A419 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9477ED3C1800137300C2A419 /* main.m */; };
+		9477ED441800137300C2A419 /* IDMAppDelegateMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 9477ED431800137300C2A419 /* IDMAppDelegateMac.m */; };
+		9477ED471800137300C2A419 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9477ED451800137300C2A419 /* MainMenu.xib */; };
+		9477ED491800137300C2A419 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9477ED481800137300C2A419 /* Images.xcassets */; };
+		9477ED621800140200C2A419 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9477ED611800140200C2A419 /* CoreData.framework */; };
+		9477ED6B18001B7000C2A419 /* IDMAddNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9477ED6918001B7000C2A419 /* IDMAddNoteViewController.m */; };
+		9477ED6C18001B7000C2A419 /* IDMAddNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9477ED6A18001B7000C2A419 /* IDMAddNoteViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		070F46EF1805CDCB00EE36E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0791BCE217F6F58C00E7C31B /* Ensembles iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 070D336118018A960054BA23;
+			remoteInfo = "Tests iOS";
+		};
+		07168C0318E037FC00153494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9477ED211800132E00C2A419 /* Ensembles Mac.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6DAD10F918CA067900237084;
+			remoteInfo = Ensembles;
+		};
+		0736589C1EDD491F001C26F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0791BCE217F6F58C00E7C31B /* Ensembles iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 07F2D9B41D950FDB00EB9483;
+			remoteInfo = "Ensembles iOS Module";
+		};
+		073658A71EDD49B8001C26F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 073658A21EDD49B7001C26F4 /* ObjectiveDropboxOfficial.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F26B75751D7F6AF700714F70;
+			remoteInfo = "ObjectiveDropboxOfficial iOS";
+		};
+		073658A91EDD49B8001C26F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 073658A21EDD49B7001C26F4 /* ObjectiveDropboxOfficial.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F27DE9E21D7FF909003B1CEE;
+			remoteInfo = "ObjectiveDropboxOfficial macOS";
+		};
+		073658B71EDD521A001C26F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 073658A21EDD49B7001C26F4 /* ObjectiveDropboxOfficial.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F26B75741D7F6AF700714F70;
+			remoteInfo = "ObjectiveDropboxOfficial iOS";
+		};
+		07571F401910F2BE008479A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0791BCE217F6F58C00E7C31B /* Ensembles iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 07571F0F1910EC02008479A9;
+			remoteInfo = "Ensembles Resources iOS";
+		};
+		07571F4B1910F700008479A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0791BCE217F6F58C00E7C31B /* Ensembles iOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 07BF374417F184DD00C56F64;
+			remoteInfo = "Ensembles iOS";
+		};
+		077F113E17F709ED0093A212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0791BCE217F6F58C00E7C31B /* Ensembles iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 07BF374517F184DD00C56F64;
+			remoteInfo = "Ensembles iOS";
+		};
+		07D060131FACD985003783D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D0600C1FACD985003783D3 /* ZipArchive.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B423AE1A1C0DF76A0004A2F1;
+			remoteInfo = "ZipArchive-iOS";
+		};
+		07D060151FACD985003783D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D0600C1FACD985003783D3 /* ZipArchive.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AFF75A241C37279600F450AC;
+			remoteInfo = "ZipArchive-Mac";
+		};
+		07D060171FACD985003783D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D0600C1FACD985003783D3 /* ZipArchive.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 37952C261F63B50D00DD6677;
+			remoteInfo = "ZipArchive-tvos";
+		};
+		07D060191FACD985003783D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D0600C1FACD985003783D3 /* ZipArchive.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 37952C5E1F63BB7100DD6677;
+			remoteInfo = "ZipArchive-watchos";
+		};
+		07D060211FACD9BB003783D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D0600C1FACD985003783D3 /* ZipArchive.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B423AE191C0DF76A0004A2F1;
+			remoteInfo = "ZipArchive-iOS";
+		};
+		07D9F0031910FD2400D191FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0791BCE217F6F58C00E7C31B /* Ensembles iOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 07571F0E1910EC02008479A9;
+			remoteInfo = "Ensembles Resources iOS";
+		};
+		07D9F027191107B700D191FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9477ED211800132E00C2A419 /* Ensembles Mac.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DAD10F818CA067900237084;
+			remoteInfo = Ensembles;
+		};
+		9477ED291800132F00C2A419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9477ED211800132E00C2A419 /* Ensembles Mac.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 07592CA6177F2D1000816034;
+			remoteInfo = "Tests (Mac)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		073658B91EDD521A001C26F4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				073658B61EDD521A001C26F4 /* ObjectiveDropboxOfficial.framework in Embed Frameworks */,
+				07D060201FACD9BB003783D3 /* ZipArchive.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		070176EF18BD17DF00C4DA01 /* CDENodeCloudFileSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDENodeCloudFileSystem.h; path = ../../Framework/Extensions/CDENodeCloudFileSystem.h; sourceTree = "<group>"; };
+		070176F018BD17DF00C4DA01 /* CDENodeCloudFileSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDENodeCloudFileSystem.m; path = ../../Framework/Extensions/CDENodeCloudFileSystem.m; sourceTree = "<group>"; };
+		070F46F31805D51400EE36E5 /* IDMNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDMNote.h; path = Shared/IDMNote.h; sourceTree = SOURCE_ROOT; };
+		070F46F41805D51400EE36E5 /* IDMNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IDMNote.m; path = Shared/IDMNote.m; sourceTree = SOURCE_ROOT; };
+		070F46F51805D51400EE36E5 /* IDMTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDMTag.h; path = Shared/IDMTag.h; sourceTree = SOURCE_ROOT; };
+		070F46F61805D51400EE36E5 /* IDMTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IDMTag.m; path = Shared/IDMTag.m; sourceTree = SOURCE_ROOT; };
+		070F46F81805D51400EE36E5 /* Model_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model_0.xcdatamodel; sourceTree = "<group>"; };
+		0736589F1EDD4936001C26F4 /* CDEDropboxV2CloudFileSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDEDropboxV2CloudFileSystem.h; path = ../../Framework/Extensions/CDEDropboxV2CloudFileSystem.h; sourceTree = "<group>"; };
+		073658A01EDD4936001C26F4 /* CDEDropboxV2CloudFileSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDEDropboxV2CloudFileSystem.m; path = ../../Framework/Extensions/CDEDropboxV2CloudFileSystem.m; sourceTree = "<group>"; };
+		073658A21EDD49B7001C26F4 /* ObjectiveDropboxOfficial.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjectiveDropboxOfficial.xcodeproj; path = ../../Vendor/DropboxSDKV2/Source/ObjectiveDropboxOfficial/ObjectiveDropboxOfficial.xcodeproj; sourceTree = "<group>"; };
+		074B959817EC783B0016F84D /* Idiomatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Idiomatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		074B959B17EC783B0016F84D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		074B959D17EC783B0016F84D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		074B959F17EC783B0016F84D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		074B95A317EC783B0016F84D /* Idiomatic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Idiomatic-Info.plist"; sourceTree = "<group>"; };
+		074B95A517EC783B0016F84D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		074B95A717EC783B0016F84D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		074B95A917EC783B0016F84D /* Idiomatic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Idiomatic-Prefix.pch"; sourceTree = "<group>"; };
+		074B95AA17EC783B0016F84D /* IDMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDMAppDelegate.h; sourceTree = "<group>"; };
+		074B95AB17EC783B0016F84D /* IDMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDMAppDelegate.m; sourceTree = "<group>"; };
+		074B95AE17EC783B0016F84D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		074B95B317EC783B0016F84D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		074B95BA17EC783B0016F84D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		074B95D917EC7DCD0016F84D /* IDMTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMTagsViewController.h; sourceTree = "<group>"; };
+		074B95DA17EC7DCD0016F84D /* IDMTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMTagsViewController.m; sourceTree = "<group>"; };
+		074B95DC17EC7DDF0016F84D /* IDMNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMNotesViewController.h; sourceTree = "<group>"; };
+		074B95DD17EC7DDF0016F84D /* IDMNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMNotesViewController.m; sourceTree = "<group>"; };
+		074B95DF17EC9F470016F84D /* IDMNoteEditingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMNoteEditingViewController.h; sourceTree = "<group>"; };
+		074B95E017EC9F470016F84D /* IDMNoteEditingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMNoteEditingViewController.m; sourceTree = "<group>"; };
+		0751808F18B7418A00CE4264 /* Model_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model_1.xcdatamodel; sourceTree = "<group>"; };
+		0751809718B743C500CE4264 /* IDMMediaFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDMMediaFile.h; path = Shared/IDMMediaFile.h; sourceTree = "<group>"; };
+		0751809818B743C500CE4264 /* IDMMediaFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IDMMediaFile.m; path = Shared/IDMMediaFile.m; sourceTree = "<group>"; };
+		077231DC18C5FCDA0065BFEE /* IDMNodeSyncSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMNodeSyncSettingsViewController.h; sourceTree = "<group>"; };
+		077231DD18C5FCDA0065BFEE /* IDMNodeSyncSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMNodeSyncSettingsViewController.m; sourceTree = "<group>"; };
+		077231DF18C604610065BFEE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		077231E118C6080D0065BFEE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		07746AAD18C6276F00A267F5 /* IDMSyncManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMSyncManager.h; sourceTree = "<group>"; };
+		07746AAE18C6276F00A267F5 /* IDMSyncManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMSyncManager.m; sourceTree = "<group>"; };
+		0791BCE217F6F58C00E7C31B /* Ensembles iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Ensembles iOS.xcodeproj"; path = "../../Framework/Ensembles iOS.xcodeproj"; sourceTree = "<group>"; };
+		07973EF8183BE32C007F48CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		07BF372E17F17D4100C56F64 /* Idiomatic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Idiomatic.entitlements; sourceTree = "<group>"; };
+		07BF37D417F189EB00C56F64 /* libensembles_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libensembles_ios.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D0600C1FACD985003783D3 /* ZipArchive.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZipArchive.xcodeproj; path = ../../Vendor/SSZipArchive/ZipArchive.xcodeproj; sourceTree = "<group>"; };
+		0BA4D0F119572DED00FA29F9 /* CDEMultipeerCloudFileSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDEMultipeerCloudFileSystem.h; path = ../../Framework/Extensions/CDEMultipeerCloudFileSystem.h; sourceTree = "<group>"; };
+		0BA4D0F219572DED00FA29F9 /* CDEMultipeerCloudFileSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDEMultipeerCloudFileSystem.m; path = ../../Framework/Extensions/CDEMultipeerCloudFileSystem.m; sourceTree = "<group>"; };
+		0BA833E819572D53001FA15B /* IDMMultipeerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDMMultipeerManager.h; path = Multipeer/IDMMultipeerManager.h; sourceTree = "<group>"; };
+		0BA833E919572D53001FA15B /* IDMMultipeerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IDMMultipeerManager.m; path = Multipeer/IDMMultipeerManager.m; sourceTree = "<group>"; };
+		9477ED211800132E00C2A419 /* Ensembles Mac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Ensembles Mac.xcodeproj"; path = "../../Framework/Ensembles Mac.xcodeproj"; sourceTree = "<group>"; };
+		9477ED2F1800137300C2A419 /* Idiomatic Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Idiomatic Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9477ED301800137300C2A419 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		9477ED331800137300C2A419 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9477ED341800137300C2A419 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9477ED351800137300C2A419 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9477ED381800137300C2A419 /* IdiomaticMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IdiomaticMac-Info.plist"; sourceTree = "<group>"; };
+		9477ED3A1800137300C2A419 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9477ED3C1800137300C2A419 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9477ED3E1800137300C2A419 /* IdiomaticMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IdiomaticMac-Prefix.pch"; sourceTree = "<group>"; };
+		9477ED421800137300C2A419 /* IDMAppDelegateMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDMAppDelegateMac.h; sourceTree = "<group>"; };
+		9477ED431800137300C2A419 /* IDMAppDelegateMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDMAppDelegateMac.m; sourceTree = "<group>"; };
+		9477ED461800137300C2A419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9477ED481800137300C2A419 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9477ED611800140200C2A419 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		9477ED671800168400C2A419 /* IdiomaticMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = IdiomaticMac.entitlements; sourceTree = "<group>"; };
+		9477ED6818001B7000C2A419 /* IDMAddNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMAddNoteViewController.h; sourceTree = "<group>"; };
+		9477ED6918001B7000C2A419 /* IDMAddNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMAddNoteViewController.m; sourceTree = "<group>"; };
+		9477ED6A18001B7000C2A419 /* IDMAddNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IDMAddNoteViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		074B959517EC783B0016F84D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D0601F1FACD9BB003783D3 /* ZipArchive.framework in Frameworks */,
+				07571F4D1910F738008479A9 /* libensembles.a in Frameworks */,
+				077231E218C6080D0065BFEE /* MobileCoreServices.framework in Frameworks */,
+				077231E018C604610065BFEE /* Security.framework in Frameworks */,
+				07973EF9183BE32C007F48CA /* CoreData.framework in Frameworks */,
+				074B959E17EC783B0016F84D /* CoreGraphics.framework in Frameworks */,
+				074B95A017EC783B0016F84D /* UIKit.framework in Frameworks */,
+				073658B51EDD521A001C26F4 /* ObjectiveDropboxOfficial.framework in Frameworks */,
+				074B959C17EC783B0016F84D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9477ED2C1800137300C2A419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D9F0261911077900D191FA /* Ensembles.framework in Frameworks */,
+				9477ED621800140200C2A419 /* CoreData.framework in Frameworks */,
+				9477ED311800137300C2A419 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070F46FC1805D69E00EE36E5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0736589F1EDD4936001C26F4 /* CDEDropboxV2CloudFileSystem.h */,
+				073658A01EDD4936001C26F4 /* CDEDropboxV2CloudFileSystem.m */,
+				070176EF18BD17DF00C4DA01 /* CDENodeCloudFileSystem.h */,
+				070176F018BD17DF00C4DA01 /* CDENodeCloudFileSystem.m */,
+				0BA4D0F119572DED00FA29F9 /* CDEMultipeerCloudFileSystem.h */,
+				0BA4D0F219572DED00FA29F9 /* CDEMultipeerCloudFileSystem.m */,
+				070F46F31805D51400EE36E5 /* IDMNote.h */,
+				070F46F41805D51400EE36E5 /* IDMNote.m */,
+				070F46F51805D51400EE36E5 /* IDMTag.h */,
+				070F46F61805D51400EE36E5 /* IDMTag.m */,
+				0751809718B743C500CE4264 /* IDMMediaFile.h */,
+				0751809818B743C500CE4264 /* IDMMediaFile.m */,
+				070F46F71805D51400EE36E5 /* Model.xcdatamodeld */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		073658A31EDD49B7001C26F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				073658A81EDD49B8001C26F4 /* ObjectiveDropboxOfficial.framework */,
+				073658AA1EDD49B8001C26F4 /* ObjectiveDropboxOfficial.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		074B958F17EC783B0016F84D = {
+			isa = PBXGroup;
+			children = (
+				07D0600C1FACD985003783D3 /* ZipArchive.xcodeproj */,
+				073658A21EDD49B7001C26F4 /* ObjectiveDropboxOfficial.xcodeproj */,
+				9477ED211800132E00C2A419 /* Ensembles Mac.xcodeproj */,
+				0791BCE217F6F58C00E7C31B /* Ensembles iOS.xcodeproj */,
+				070F46FC1805D69E00EE36E5 /* Shared */,
+				074B95A117EC783B0016F84D /* Idiomatic iOS */,
+				9477ED361800137300C2A419 /* Idiomatic Mac */,
+				074B959A17EC783B0016F84D /* Frameworks */,
+				074B959917EC783B0016F84D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		074B959917EC783B0016F84D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				074B959817EC783B0016F84D /* Idiomatic.app */,
+				9477ED2F1800137300C2A419 /* Idiomatic Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		074B959A17EC783B0016F84D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				077231E118C6080D0065BFEE /* MobileCoreServices.framework */,
+				077231DF18C604610065BFEE /* Security.framework */,
+				07973EF8183BE32C007F48CA /* CoreData.framework */,
+				9477ED611800140200C2A419 /* CoreData.framework */,
+				07BF37D417F189EB00C56F64 /* libensembles_ios.a */,
+				074B959B17EC783B0016F84D /* Foundation.framework */,
+				074B959D17EC783B0016F84D /* CoreGraphics.framework */,
+				074B959F17EC783B0016F84D /* UIKit.framework */,
+				074B95BA17EC783B0016F84D /* XCTest.framework */,
+				9477ED301800137300C2A419 /* Cocoa.framework */,
+				9477ED321800137300C2A419 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		074B95A117EC783B0016F84D /* Idiomatic iOS */ = {
+			isa = PBXGroup;
+			children = (
+				074B95AA17EC783B0016F84D /* IDMAppDelegate.h */,
+				074B95AB17EC783B0016F84D /* IDMAppDelegate.m */,
+				07746AAD18C6276F00A267F5 /* IDMSyncManager.h */,
+				07746AAE18C6276F00A267F5 /* IDMSyncManager.m */,
+				0BA833E819572D53001FA15B /* IDMMultipeerManager.h */,
+				0BA833E919572D53001FA15B /* IDMMultipeerManager.m */,
+				074B95D917EC7DCD0016F84D /* IDMTagsViewController.h */,
+				074B95DA17EC7DCD0016F84D /* IDMTagsViewController.m */,
+				074B95DC17EC7DDF0016F84D /* IDMNotesViewController.h */,
+				074B95DD17EC7DDF0016F84D /* IDMNotesViewController.m */,
+				074B95DF17EC9F470016F84D /* IDMNoteEditingViewController.h */,
+				074B95E017EC9F470016F84D /* IDMNoteEditingViewController.m */,
+				077231DC18C5FCDA0065BFEE /* IDMNodeSyncSettingsViewController.h */,
+				077231DD18C5FCDA0065BFEE /* IDMNodeSyncSettingsViewController.m */,
+				074B95A217EC783B0016F84D /* Supporting Files */,
+			);
+			name = "Idiomatic iOS";
+			path = Idiomatic;
+			sourceTree = "<group>";
+		};
+		074B95A217EC783B0016F84D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07BF372E17F17D4100C56F64 /* Idiomatic.entitlements */,
+				074B95B317EC783B0016F84D /* Images.xcassets */,
+				074B95AD17EC783B0016F84D /* Main.storyboard */,
+				074B95A317EC783B0016F84D /* Idiomatic-Info.plist */,
+				074B95A417EC783B0016F84D /* InfoPlist.strings */,
+				074B95A717EC783B0016F84D /* main.m */,
+				074B95A917EC783B0016F84D /* Idiomatic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		077F113B17F709ED0093A212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				077F113F17F709ED0093A212 /* libensembles.a */,
+				07571F411910F2BE008479A9 /* Ensembles.bundle */,
+				070F46F01805CDCB00EE36E5 /* Tests iOS.xctest */,
+				0736589D1EDD491F001C26F4 /* Ensembles.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D0600D1FACD985003783D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D060141FACD985003783D3 /* ZipArchive.framework */,
+				07D060161FACD985003783D3 /* ZipArchive.framework */,
+				07D060181FACD985003783D3 /* ZipArchive.framework */,
+				07D0601A1FACD985003783D3 /* ZipArchive.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9477ED221800132E00C2A419 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07168C0418E037FC00153494 /* Ensembles.framework */,
+				9477ED2A1800132F00C2A419 /* Tests Mac.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9477ED321800137300C2A419 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9477ED331800137300C2A419 /* AppKit.framework */,
+				9477ED341800137300C2A419 /* CoreData.framework */,
+				9477ED351800137300C2A419 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9477ED361800137300C2A419 /* Idiomatic Mac */ = {
+			isa = PBXGroup;
+			children = (
+				9477ED421800137300C2A419 /* IDMAppDelegateMac.h */,
+				9477ED431800137300C2A419 /* IDMAppDelegateMac.m */,
+				9477ED6818001B7000C2A419 /* IDMAddNoteViewController.h */,
+				9477ED6918001B7000C2A419 /* IDMAddNoteViewController.m */,
+				9477ED6A18001B7000C2A419 /* IDMAddNoteViewController.xib */,
+				9477ED451800137300C2A419 /* MainMenu.xib */,
+				9477ED481800137300C2A419 /* Images.xcassets */,
+				9477ED371800137300C2A419 /* Supporting Files */,
+			);
+			name = "Idiomatic Mac";
+			path = IdiomaticMac;
+			sourceTree = "<group>";
+		};
+		9477ED371800137300C2A419 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9477ED671800168400C2A419 /* IdiomaticMac.entitlements */,
+				9477ED381800137300C2A419 /* IdiomaticMac-Info.plist */,
+				9477ED391800137300C2A419 /* InfoPlist.strings */,
+				9477ED3C1800137300C2A419 /* main.m */,
+				9477ED3E1800137300C2A419 /* IdiomaticMac-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		074B959717EC783B0016F84D /* Idiomatic iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074B95CA17EC783B0016F84D /* Build configuration list for PBXNativeTarget "Idiomatic iOS" */;
+			buildPhases = (
+				074B959417EC783B0016F84D /* Sources */,
+				074B959517EC783B0016F84D /* Frameworks */,
+				074B959617EC783B0016F84D /* Resources */,
+				073658B91EDD521A001C26F4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D9F0041910FD2400D191FA /* PBXTargetDependency */,
+				07571F4C1910F700008479A9 /* PBXTargetDependency */,
+				073658B81EDD521A001C26F4 /* PBXTargetDependency */,
+				07D060221FACD9BB003783D3 /* PBXTargetDependency */,
+			);
+			name = "Idiomatic iOS";
+			productName = Idiomatic;
+			productReference = 074B959817EC783B0016F84D /* Idiomatic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9477ED2E1800137300C2A419 /* Idiomatic Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9477ED5B1800137400C2A419 /* Build configuration list for PBXNativeTarget "Idiomatic Mac" */;
+			buildPhases = (
+				9477ED2B1800137300C2A419 /* Sources */,
+				9477ED2C1800137300C2A419 /* Frameworks */,
+				9477ED2D1800137300C2A419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D9F028191107B700D191FA /* PBXTargetDependency */,
+			);
+			name = "Idiomatic Mac";
+			productName = IdiomaticMac;
+			productReference = 9477ED2F1800137300C2A419 /* Idiomatic Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		074B959017EC783B0016F84D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IDM;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "The Mental Faculty B.V.";
+				TargetAttributes = {
+					074B959717EC783B0016F84D = {
+						DevelopmentTeam = P7BXV6PHLD;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					9477ED2E1800137300C2A419 = {
+						DevelopmentTeam = P7BXV6PHLD;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 074B959317EC783B0016F84D /* Build configuration list for PBXProject "Idiomatic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 074B958F17EC783B0016F84D;
+			productRefGroup = 074B959917EC783B0016F84D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 077F113B17F709ED0093A212 /* Products */;
+					ProjectRef = 0791BCE217F6F58C00E7C31B /* Ensembles iOS.xcodeproj */;
+				},
+				{
+					ProductGroup = 9477ED221800132E00C2A419 /* Products */;
+					ProjectRef = 9477ED211800132E00C2A419 /* Ensembles Mac.xcodeproj */;
+				},
+				{
+					ProductGroup = 073658A31EDD49B7001C26F4 /* Products */;
+					ProjectRef = 073658A21EDD49B7001C26F4 /* ObjectiveDropboxOfficial.xcodeproj */;
+				},
+				{
+					ProductGroup = 07D0600D1FACD985003783D3 /* Products */;
+					ProjectRef = 07D0600C1FACD985003783D3 /* ZipArchive.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				074B959717EC783B0016F84D /* Idiomatic iOS */,
+				9477ED2E1800137300C2A419 /* Idiomatic Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		070F46F01805CDCB00EE36E5 /* Tests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Tests iOS.xctest";
+			remoteRef = 070F46EF1805CDCB00EE36E5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07168C0418E037FC00153494 /* Ensembles.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Ensembles.framework;
+			remoteRef = 07168C0318E037FC00153494 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0736589D1EDD491F001C26F4 /* Ensembles.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Ensembles.framework;
+			remoteRef = 0736589C1EDD491F001C26F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		073658A81EDD49B8001C26F4 /* ObjectiveDropboxOfficial.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectiveDropboxOfficial.framework;
+			remoteRef = 073658A71EDD49B8001C26F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		073658AA1EDD49B8001C26F4 /* ObjectiveDropboxOfficial.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectiveDropboxOfficial.framework;
+			remoteRef = 073658A91EDD49B8001C26F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07571F411910F2BE008479A9 /* Ensembles.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Ensembles.bundle;
+			remoteRef = 07571F401910F2BE008479A9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		077F113F17F709ED0093A212 /* libensembles.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libensembles.a;
+			remoteRef = 077F113E17F709ED0093A212 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D060141FACD985003783D3 /* ZipArchive.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZipArchive.framework;
+			remoteRef = 07D060131FACD985003783D3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D060161FACD985003783D3 /* ZipArchive.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZipArchive.framework;
+			remoteRef = 07D060151FACD985003783D3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D060181FACD985003783D3 /* ZipArchive.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZipArchive.framework;
+			remoteRef = 07D060171FACD985003783D3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07D0601A1FACD985003783D3 /* ZipArchive.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZipArchive.framework;
+			remoteRef = 07D060191FACD985003783D3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9477ED2A1800132F00C2A419 /* Tests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Tests Mac.xctest";
+			remoteRef = 9477ED291800132F00C2A419 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		074B959617EC783B0016F84D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0791BCE317F6F58C00E7C31B /* Ensembles iOS.xcodeproj in Resources */,
+				074B95B417EC783B0016F84D /* Images.xcassets in Resources */,
+				074B95A617EC783B0016F84D /* InfoPlist.strings in Resources */,
+				07D9F0051910FD7600D191FA /* Ensembles.bundle in Resources */,
+				074B95AF17EC783B0016F84D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9477ED2D1800137300C2A419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9477ED6C18001B7000C2A419 /* IDMAddNoteViewController.xib in Resources */,
+				9477ED3B1800137300C2A419 /* InfoPlist.strings in Resources */,
+				9477ED491800137300C2A419 /* Images.xcassets in Resources */,
+				9477ED471800137300C2A419 /* MainMenu.xib in Resources */,
+				07D9F029191107FC00D191FA /* Ensembles.framework in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		074B959417EC783B0016F84D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07746AAF18C6276F00A267F5 /* IDMSyncManager.m in Sources */,
+				074B95A817EC783B0016F84D /* main.m in Sources */,
+				0751809918B743C500CE4264 /* IDMMediaFile.m in Sources */,
+				070F46FA1805D51400EE36E5 /* IDMTag.m in Sources */,
+				074B95DB17EC7DCD0016F84D /* IDMTagsViewController.m in Sources */,
+				074B95E117EC9F470016F84D /* IDMNoteEditingViewController.m in Sources */,
+				077231DE18C5FCDA0065BFEE /* IDMNodeSyncSettingsViewController.m in Sources */,
+				0BA4D0F319572DED00FA29F9 /* CDEMultipeerCloudFileSystem.m in Sources */,
+				070F46F91805D51400EE36E5 /* IDMNote.m in Sources */,
+				074B95AC17EC783B0016F84D /* IDMAppDelegate.m in Sources */,
+				070176F118BD17DF00C4DA01 /* CDENodeCloudFileSystem.m in Sources */,
+				070F46FB1805D51400EE36E5 /* Model.xcdatamodeld in Sources */,
+				074B95DE17EC7DDF0016F84D /* IDMNotesViewController.m in Sources */,
+				073658A11EDD4936001C26F4 /* CDEDropboxV2CloudFileSystem.m in Sources */,
+				0BA833F719572D53001FA15B /* IDMMultipeerManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9477ED2B1800137300C2A419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9477ED441800137300C2A419 /* IDMAppDelegateMac.m in Sources */,
+				9477ED6B18001B7000C2A419 /* IDMAddNoteViewController.m in Sources */,
+				075157581805D7FD00C4D4F1 /* Model.xcdatamodeld in Sources */,
+				0751809A18B743C500CE4264 /* IDMMediaFile.m in Sources */,
+				070176F218BD17DF00C4DA01 /* CDENodeCloudFileSystem.m in Sources */,
+				9477ED3D1800137300C2A419 /* main.m in Sources */,
+				070F46FD1805D6C100EE36E5 /* IDMNote.m in Sources */,
+				070F46FE1805D6C400EE36E5 /* IDMTag.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		073658B81EDD521A001C26F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ObjectiveDropboxOfficial iOS";
+			targetProxy = 073658B71EDD521A001C26F4 /* PBXContainerItemProxy */;
+		};
+		07571F4C1910F700008479A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Ensembles iOS";
+			targetProxy = 07571F4B1910F700008479A9 /* PBXContainerItemProxy */;
+		};
+		07D060221FACD9BB003783D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZipArchive-iOS";
+			targetProxy = 07D060211FACD9BB003783D3 /* PBXContainerItemProxy */;
+		};
+		07D9F0041910FD2400D191FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Ensembles Resources iOS";
+			targetProxy = 07D9F0031910FD2400D191FA /* PBXContainerItemProxy */;
+		};
+		07D9F028191107B700D191FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Ensembles;
+			targetProxy = 07D9F027191107B700D191FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		074B95A417EC783B0016F84D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074B95A517EC783B0016F84D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		074B95AD17EC783B0016F84D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074B95AE17EC783B0016F84D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9477ED391800137300C2A419 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9477ED3A1800137300C2A419 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9477ED451800137300C2A419 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9477ED461800137300C2A419 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		074B95C817EC783B0016F84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../Framework/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		074B95C917EC783B0016F84D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../Framework/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		074B95CB17EC783B0016F84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Idiomatic/Idiomatic.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Ensembles-bqnnqguhepfxlkgqvdamggjewche/Build/Products/Debug-iphoneos",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Idiomatic/Idiomatic-Prefix.pch";
+				INFOPLIST_FILE = "Idiomatic/Idiomatic-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mentalfaculty.idiomatic;
+				PRODUCT_NAME = Idiomatic;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		074B95CC17EC783B0016F84D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Idiomatic/Idiomatic.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Ensembles-bqnnqguhepfxlkgqvdamggjewche/Build/Products/Debug-iphoneos",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Idiomatic/Idiomatic-Prefix.pch";
+				INFOPLIST_FILE = "Idiomatic/Idiomatic-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mentalfaculty.idiomatic;
+				PRODUCT_NAME = Idiomatic;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9477ED5C1800137400C2A419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IdiomaticMac/IdiomaticMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IdiomaticMac/IdiomaticMac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Vendor/DropboxSDK/**",
+				);
+				INFOPLIST_FILE = "IdiomaticMac/IdiomaticMac-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mentalfaculty.idiomatic.osx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9477ED5D1800137400C2A419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IdiomaticMac/IdiomaticMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IdiomaticMac/IdiomaticMac-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../Vendor/DropboxSDK/**",
+				);
+				INFOPLIST_FILE = "IdiomaticMac/IdiomaticMac-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mentalfaculty.idiomatic.osx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		074B959317EC783B0016F84D /* Build configuration list for PBXProject "Idiomatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074B95C817EC783B0016F84D /* Debug */,
+				074B95C917EC783B0016F84D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074B95CA17EC783B0016F84D /* Build configuration list for PBXNativeTarget "Idiomatic iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074B95CB17EC783B0016F84D /* Debug */,
+				074B95CC17EC783B0016F84D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9477ED5B1800137400C2A419 /* Build configuration list for PBXNativeTarget "Idiomatic Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9477ED5C1800137400C2A419 /* Debug */,
+				9477ED5D1800137400C2A419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		070F46F71805D51400EE36E5 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0751808F18B7418A00CE4264 /* Model_1.xcdatamodel */,
+				070F46F81805D51400EE36E5 /* Model_0.xcdatamodel */,
+			);
+			currentVersion = 0751808F18B7418A00CE4264 /* Model_1.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = Shared/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 074B959017EC783B0016F84D /* Project object */;
+}
